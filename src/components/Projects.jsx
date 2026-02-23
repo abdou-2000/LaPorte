@@ -1,3 +1,5 @@
+import projectImage from '../assets/project.jpg';
+
 function Projects() {
     const projects = [1,2,3,4,5,6];
 
@@ -7,7 +9,7 @@ function Projects() {
             <div className="projects-grid">
                 {projects.map((project) => (
                     <div className="project-card" key={project}>
-                        <img src="/project.jpg" alt="project"/>
+                        <img src={projectImage} alt="project"/>
                         <h3>Projet {project}</h3>
                         <p>Description du projet {project}</p>
                     </div>

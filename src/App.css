@@ -33,7 +33,9 @@ body {
 /* HERO */
 .hero {
   height: 90vh;
-  background: url("/code.jpg") center/cover no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
